@@ -1,0 +1,26 @@
+// Container(
+//   height: 450,
+//   child: SfMaps(layers: [
+//     MapTileLayer(
+//         initialFocalLatLng: MapLatLng(
+//             currentLocation.latitude!,
+//             currentLocation.longitude!),
+//         initialZoomLevel: 15,
+//         initialMarkersCount: 1,
+//         urlTemplate:
+//             "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+//         markerBuilder: (
+//           BuildContext context,
+//           int index,
+//         ) {
+//           return MapMarker(
+//             latitude: currentLocation.latitude!,
+//             longitude: currentLocation.longitude!,
+//             child: const Icon(
+//               Icons.location_on,
+//               color: Colors.red,
+//             ),
+//           );
+//         })
+//   ]),
+// ),
